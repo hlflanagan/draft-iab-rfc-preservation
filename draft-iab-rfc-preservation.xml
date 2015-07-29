@@ -8,24 +8,22 @@
 <!ENTITY I-D.hansen-rfc-use-of-pdf SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.hansen-rfc-use-of-pdf.xml">
 ]>
 
-<rfc ipr="trust200902" docName="draft-iab-rfc-preservation-00" category="info">
+<rfc ipr="trust200902" docName="draft-iab-rfc-preservation-01" category="info">
 
 <?rfc toc="yes"?>
 
   <front>
-    <title abbrev="I-D">Digital Preservation Considerations for the RFC Series</title>
+    <title abbrev="Digital Preservation">Digital Preservation Considerations for the RFC Series</title>
 
     <author initials="H." surname="Flanagan" fullname="Heather Flanagan">
       <organization>RFC Editor</organization>
       <address>
-        
-        
         <email>rse@rfc-editor.org</email>
-        
+        <uri>http://orcid.org/0000-0002-2647-2220</uri> 
       </address>
     </author>
 
-    <date year="2015" month="January" day="24"/>
+    <date year="2015" month="July" day="29"/>
     
 
     <abstract>
