@@ -5,10 +5,11 @@
 <!ENTITY RFC5741 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.5741.xml">
 <!ENTITY RFC6635 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6635.xml">
 <!ENTITY RFC6949 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6949.xml">
-<!ENTITY I-D.hansen-rfc-use-of-pdf SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.hansen-rfc-use-of-pdf.xml">
+<!ENTITY I-D.iab-rfc-use-of-pdf SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-rfc-use-of-pdf.xml">
+<!ENTITY I-D.housley-rfc-and-id-signatures SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.housley-rfc-and-id-signatures.xml">
 ]>
 
-<rfc ipr="trust200902" docName="draft-iab-rfc-preservation-01" category="info">
+<rfc ipr="trust200902" docName="draft-iab-rfc-preservation-02" category="info">
 
 <?rfc toc="yes"?>
 
@@ -19,12 +20,12 @@
       <organization>RFC Editor</organization>
       <address>
         <email>rse@rfc-editor.org</email>
-        <uri>http://orcid.org/0000-0002-2647-2220</uri> 
+        <uri>http://orcid.org/0000-0002-2647-2220</uri>
       </address>
     </author>
 
-    <date year="2015" month="July" day="29"/>
-    
+    <date year="2016" month="October" day="04"/>
+
 
     <abstract>
 
@@ -126,12 +127,17 @@
   <t>the RFC number</t>
   <t>ISSN</t>
   <t>publication date</t>
-  <t>Digital Object Identifier (DOI) --future</t>
+  <t>Digital Object Identifier (DOI)</t>
 </list></t>
 
 <t>Additional metadata, such as author name, is assigned earlier in the document creation process, but it is subject to change up to the point of publication.  More information on metadata is available in section "Metadata and document registration."</t>
 
-<t>The publication of an RFC--the point at which responsibility for the document moves to the RFC Publisher, another internal role within the RFC Editor--starts the formal archival process for the documents.  At that time, the canonical document should be digitally signed.  Information regarding the signatures and how to verify them must be made available on the RFC Editor website.  </t>
+<t>The publication of an RFC--the point at which responsibility for the document
+moves to the RFC Publisher, another internal role within the RFC Editor--starts
+the formal archival process for the documents.  At that time, the canonical
+document should be digitally signed [I-D.housley-rfc-and-id-signatures].
+Information regarding the signatures and
+how to verify them must be made available on the RFC Editor website.  </t>
 
 <t>In terms of deciding what to accept in the archive--a major question for most archives, and yet simple for the RFC Series--the RFC Editor accepts documents that are approved for publication by the stream approving body of one of the document streams: the IETF, IAB, IRTF, or Independent Submissions streams <xref target="RFC5741"/>.   Each document stream has defined processes on when and how I-Ds are approved and submitted to the RFC Editor for publication.  The RFC Editor does not select documents for publication and archiving; the RFC Editor edits and publishes documents as directed by the document streams. </t>
 
@@ -161,12 +167,12 @@
   <t>Character Set</t>
   <t>ISSN</t>
   <t>Publication date</t>
+  <t>Digital Object Identifier (DOI)</t>
 </list></t>
 
 <t>Metadata to be added in the future</t>
 
 <t><list style='symbols'>
-  <t>Digital Object Identifier (DOI)</t>
   <t>Publication format URIs</t>
 </list></t>
 
@@ -202,7 +208,7 @@
 </section>
 <section anchor="single-format-for-archival-purposes" title="Single format for archival purposes">
 
-<t>If one ascribes to the idea that preserving the information described by a document, rather than the document itself, is the primary purpose of an archive, then focusing efforts on a single file format is a reasonable option.  Some well-supported archival tooling projects follow this route, such as Archivematica <eref target="https://www.archivematica.org/wiki/Main_Page">https://www.archivematica.org/wiki/Main_Page</eref>.  By selecting a feature-rich yet fundamentally stable file format for documents, an organization may avoid expensive whole-environment reconstruction in order to view the document.  The PDF/A formats were designed to be an archival format for electronic documents, and PDF/A-3 is one of the options intended for publication as the RFC Series moves from a plain-text canonical format to an XML canonical format with multiple publication formats.  A PDF/A-3 file can be produced that embeds the XML from which the PDF/A-3 file was created, which in turn allows for both original and rendered document validation--if one has the correct tools available to see the source of the PDF/A-3 file <xref target="I-D.hansen-rfc-use-of-pdf"/>.  The XML is not otherwise visible when viewing the PDF/A-3 file through typical PDF reader software.</t>
+<t>If one ascribes to the idea that preserving the information described by a document, rather than the document itself, is the primary purpose of an archive, then focusing efforts on a single file format is a reasonable option.  Some well-supported archival tooling projects follow this route, such as Archivematica <eref target="https://www.archivematica.org/wiki/Main_Page">https://www.archivematica.org/wiki/Main_Page</eref>.  By selecting a feature-rich yet fundamentally stable file format for documents, an organization may avoid expensive whole-environment reconstruction in order to view the document.  The PDF/A formats were designed to be an archival format for electronic documents, and PDF/A-3 is one of the options intended for publication as the RFC Series moves from a plain-text canonical format to an XML canonical format with multiple publication formats.  A PDF/A-3 file can be produced that embeds the XML from which the PDF/A-3 file was created, which in turn allows for both original and rendered document validation--if one has the correct tools available to see the source of the PDF/A-3 file <xref target="I-D.iab-rfc-use-of-pdf"/>.  The XML is not otherwise visible when viewing the PDF/A-3 file through typical PDF reader software.</t>
 
 <t>When looking at the need to archive RFCs in a resource-limited environment, a content preservation-only model has merit, but it is not without risks.  First, PDF/A-3 will not be the canonical format, but is intended to be one of the rendered outputs.  It may contain rendering bugs that were not intended to be in the document.  Second, while the various PDF/A formats were designed to be archival, it has not been put to the test of time to determine if will actual live up to its design goals.</t>
 
@@ -266,6 +272,8 @@
 
 <t>In order to control costs and focus the archiving effort on the entire content of an RFC, including the metadata and other features embedded within each RFC published in more than just plain text, printing each RFC upon publication to paper is no longer reasonable.  Proper data storage and mirrored copies of RFCs provides more efficient and effective copies in case of catastrophic failure of the existing archive of material.</t>
 
+<t>Particular focus should be given to finding partners that specialize in digital preservation to ingest RFCs.  Ideally, they will ingest all material associated with an RFC, including all metadata, digital signatures, and the approved Internet-Draft that was submitted to the RFC Editor. The possibilities and options should be discussed with each archival partner; at minimum, they must ingest copies of RFCs as they are published, with the basic metadata associated with each document. </t>
+
 <t>Preservation efforts should be reviewed and validated through a bi-annual audit that will verify that the targeted content and all its associated metadata can be read with existing tools.  The full process from acquisition to ingest should be reviewed to ensure that best current practice is being followed from a digital archive community perspective.  Since the overall model for the RFC Editor-maintained digital archive follows the OAIS Reference model, the associated audit guidelines should be followed.  While the RFC Editor does not seek to be recognized as 'OAIS-compliant' at this time, use of the ISO standard, "Audit and Certification of Trustworthy Digital Repositories," would provide a solid, accepted method for structuring an audit for this digital archive <xref target="ISO16363"/>.  </t>
 
 </section>
@@ -301,7 +309,8 @@
 
     <references title='Informative References'>
 
-&I-D.hansen-rfc-use-of-pdf;
+&I-D.iab-rfc-use-of-pdf;
+&I-D.housley-rfc-and-id-signatures;
 <reference anchor="DPC" target="http://www.dpconline.org/advice/preservationhandbook">
   <front>
     <title>Digital Preservation Handbook</title>
@@ -313,7 +322,7 @@
 </reference>
 <reference anchor="ISO14721" >
   <front>
-    <title>"Space data and information transfer systems -- Open archival 
+    <title>"Space data and information transfer systems -- Open archival
  information system (OAIS) -- Reference model"</title>
     <author >
       <organization>International Organization for Standardization</organization>
@@ -324,7 +333,7 @@
 </reference>
 <reference anchor="ISO16363" >
   <front>
-    <title>"Space data and information transfer systems -- Audit and 
+    <title>"Space data and information transfer systems -- Audit and
  Certification of Trustworthy Digital Repositories"</title>
     <author >
       <organization>International Organization for Standardization</organization>
@@ -426,5 +435,3 @@
 
   </back>
 </rfc>
-
-

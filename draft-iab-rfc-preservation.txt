@@ -4,12 +4,12 @@
 
 Network Working Group                                        H. Flanagan
 Internet-Draft                                                RFC Editor
-Intended status: Informational                             July 29, 2015
-Expires: January 30, 2016
+Intended status: Informational                          October 04, 2016
+Expires: April 7, 2017
 
 
          Digital Preservation Considerations for the RFC Series
-                     draft-iab-rfc-preservation-01
+                     draft-iab-rfc-preservation-02
 
 Abstract
 
@@ -36,11 +36,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on January 30, 2016.
+   This Internet-Draft will expire on April 7, 2017.
 
 Copyright Notice
 
-   Copyright (c) 2015 IETF Trust and the persons identified as the
+   Copyright (c) 2016 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Flanagan                Expires January 30, 2016                [Page 1]
+Flanagan                  Expires April 7, 2017                 [Page 1]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    the Trust Legal Provisions and are provided without warranty as
@@ -80,13 +80,13 @@ Table of Contents
      2.7.  Financial Planning  . . . . . . . . . . . . . . . . . . .  13
    3.  Recommendations . . . . . . . . . . . . . . . . . . . . . . .  14
    4.  Summary . . . . . . . . . . . . . . . . . . . . . . . . . . .  15
-   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  15
-   6.  Security Considerations . . . . . . . . . . . . . . . . . . .  15
+   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  16
+   6.  Security Considerations . . . . . . . . . . . . . . . . . . .  16
    7.  Draft Change Log  . . . . . . . . . . . . . . . . . . . . . .  16
      7.1.  draft-flanagan-rfc-preservation-02 to draft-iab-rfc-
            preservation-00 . . . . . . . . . . . . . . . . . . . . .  16
    8.  Informative References  . . . . . . . . . . . . . . . . . . .  16
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  17
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  18
 
 1.  Introduction
 
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Flanagan                Expires January 30, 2016                [Page 2]
+Flanagan                  Expires April 7, 2017                 [Page 2]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    While many files are created during the publication process, this
@@ -165,9 +165,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016                [Page 3]
+Flanagan                  Expires April 7, 2017                 [Page 3]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
 1.1.  Terminology
@@ -221,9 +221,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016                [Page 4]
+Flanagan                  Expires April 7, 2017                 [Page 4]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    3.  Metadata creation: The details regarding an RFC, including RFC
@@ -277,9 +277,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016                [Page 5]
+Flanagan                  Expires April 7, 2017                 [Page 5]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    The RFC Editor has several advantages in acting as the digital
@@ -333,9 +333,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016                [Page 6]
+Flanagan                  Expires April 7, 2017                 [Page 6]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    In the case of RFCs, the metadata is assigned to a document at the
@@ -347,7 +347,7 @@ Internet-Draft            Digital Preservation                 July 2015
 
    o  publication date
 
-   o  Digital Object Identifier (DOI) --future
+   o  Digital Object Identifier (DOI)
 
    Additional metadata, such as author name, is assigned earlier in the
    document creation process, but it is subject to change up to the
@@ -357,9 +357,10 @@ Internet-Draft            Digital Preservation                 July 2015
    The publication of an RFC--the point at which responsibility for the
    document moves to the RFC Publisher, another internal role within the
    RFC Editor--starts the formal archival process for the documents.  At
-   that time, the canonical document should be digitally signed.
-   Information regarding the signatures and how to verify them must be
-   made available on the RFC Editor website.
+   that time, the canonical document should be digitally signed [I-
+   D.housley-rfc-and-id-signatures].  Information regarding the
+   signatures and how to verify them must be made available on the RFC
+   Editor website.
 
    In terms of deciding what to accept in the archive--a major question
    for most archives, and yet simple for the RFC Series--the RFC Editor
@@ -388,10 +389,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-
-Flanagan                Expires January 30, 2016                [Page 7]
+Flanagan                  Expires April 7, 2017                 [Page 7]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
 2.3.  Metadata and document registration
@@ -437,17 +437,17 @@ Internet-Draft            Digital Preservation                 July 2015
 
    o  Publication date
 
-   Metadata to be added in the future
-
    o  Digital Object Identifier (DOI)
+
+   Metadata to be added in the future
 
    o  Publication format URIs
 
 
 
-Flanagan                Expires January 30, 2016                [Page 8]
+Flanagan                  Expires April 7, 2017                 [Page 8]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    Info pages also include links to: errata, IPR searches, plain text
@@ -501,9 +501,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016                [Page 9]
+Flanagan                  Expires April 7, 2017                 [Page 9]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    on how to adapt to a more complex set of data to archive and follow
@@ -557,9 +557,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016               [Page 10]
+Flanagan                  Expires April 7, 2017                [Page 10]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    It is recommended that this model of archiving the RFC Series cease
@@ -589,7 +589,7 @@ Internet-Draft            Digital Preservation                 July 2015
    XML from which the PDF/A-3 file was created, which in turn allows for
    both original and rendered document validation--if one has the
    correct tools available to see the source of the PDF/A-3 file
-   [I-D.hansen-rfc-use-of-pdf].  The XML is not otherwise visible when
+   [I-D.iab-rfc-use-of-pdf].  The XML is not otherwise visible when
    viewing the PDF/A-3 file through typical PDF reader software.
 
    When looking at the need to archive RFCs in a resource-limited
@@ -613,9 +613,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016               [Page 11]
+Flanagan                  Expires April 7, 2017                [Page 11]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
 2.4.3.  Holistic archiving of the computing environment
@@ -669,9 +669,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016               [Page 12]
+Flanagan                  Expires April 7, 2017                [Page 12]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    the canonical source at the point that browser or reader technology
@@ -725,9 +725,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016               [Page 13]
+Flanagan                  Expires April 7, 2017                [Page 13]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
       of file types and possibly reducing the storage size.  However, it
@@ -781,9 +781,9 @@ Internet-Draft            Digital Preservation                 July 2015
 
 
 
-Flanagan                Expires January 30, 2016               [Page 14]
+Flanagan                  Expires April 7, 2017                [Page 14]
 
-Internet-Draft            Digital Preservation                 July 2015
+Internet-Draft            Digital Preservation              October 2016
 
 
    o  partnering with other digital archives around the world to mirror
@@ -796,6 +796,15 @@ Internet-Draft            Digital Preservation                 July 2015
    Proper data storage and mirrored copies of RFCs provides more
    efficient and effective copies in case of catastrophic failure of the
    existing archive of material.
+
+   Particular focus should be given to finding partners that specialize
+   in digital preservation to ingest RFCs.  Ideally, they will ingest
+   all material associated with an RFC, including all metadata, digital
+   signatures, and the approved Internet-Draft that was submitted to the
+   RFC Editor.  The possibilities and options should be discussed with
+   each archival partner; at minimum, they must ingest copies of RFCs as
+   they are published, with the basic metadata associated with each
+   document.
 
    Preservation efforts should be reviewed and validated through a bi-
    annual audit that will verify that the targeted content and all its
@@ -824,6 +833,15 @@ Internet-Draft            Digital Preservation                 July 2015
    can come to an informed decision regarding what they are willing to
    see supported far into the future.
 
+
+
+
+
+Flanagan                  Expires April 7, 2017                [Page 15]
+
+Internet-Draft            Digital Preservation              October 2016
+
+
 5.  IANA Considerations
 
    None
@@ -831,16 +849,6 @@ Internet-Draft            Digital Preservation                 July 2015
 6.  Security Considerations
 
    TBD
-
-
-
-
-
-
-Flanagan                Expires January 30, 2016               [Page 15]
-
-Internet-Draft            Digital Preservation                 July 2015
-
 
 7.  Draft Change Log
 
@@ -856,10 +864,15 @@ Internet-Draft            Digital Preservation                 July 2015
 
 8.  Informative References
 
-   [I-D.hansen-rfc-use-of-pdf]
+   [I-D.iab-rfc-use-of-pdf]
               Hansen, T., Masinter, L., and M. Hardy, "PDF for an RFC
-              Series Output Document Format", draft-hansen-rfc-use-of-
-              pdf-07 (work in progress), March 2015.
+              Series Output Document Format", draft-iab-rfc-use-of-
+              pdf-02 (work in progress), May 2016.
+
+   [I-D.housley-rfc-and-id-signatures]
+              Housley, R., "Digital Signatures on RFC and Internet-Draft
+              Documents", draft-housley-rfc-and-id-signatures-03 (work
+              in progress), June 2016.
 
    [DPC]      DigitalPreservationCoalition, "Digital Preservation
               Handbook", 2012,
@@ -877,6 +890,14 @@ Internet-Draft            Digital Preservation                 July 2015
               Certification of Trustworthy Digital Repositories"", ISO
               16363:2011 , 2011.
 
+
+
+
+Flanagan                  Expires April 7, 2017                [Page 16]
+
+Internet-Draft            Digital Preservation              October 2016
+
+
    [LIFE]     Hole, B., "LIFE^3: Predictive Costing of Digital
               Preservation", July 2010,
               <http://www.life.ac.uk/3/docs/Hole_pasig_v1.pdf>.
@@ -887,16 +908,6 @@ Internet-Draft            Digital Preservation                 July 2015
               for embedded files (PDF/A-3)"", ISO 19005-3 , 2012.
 
    [PERMACC]  "Perma.CC", n.d., <http://perma.cc/>.
-
-
-
-
-
-
-Flanagan                Expires January 30, 2016               [Page 16]
-
-Internet-Draft            Digital Preservation                 July 2015
-
 
    [RFC-HISTORY]
               RFC Editor, "Internet Archaeology: Documents from Early
@@ -936,6 +947,13 @@ Internet-Draft            Digital Preservation                 July 2015
               DOI 10.17487/RFC6949, May 2013,
               <http://www.rfc-editor.org/info/rfc6949>.
 
+
+
+Flanagan                  Expires April 7, 2017                [Page 17]
+
+Internet-Draft            Digital Preservation              October 2016
+
+
 Author's Address
 
    Heather Flanagan
@@ -949,4 +967,42 @@ Author's Address
 
 
 
-Flanagan                Expires January 30, 2016               [Page 17]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flanagan                  Expires April 7, 2017                [Page 18]
