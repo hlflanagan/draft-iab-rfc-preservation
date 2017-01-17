@@ -68,7 +68,7 @@ Table of Contents
      1.2.  Life Cycle of Digital Preservation  . . . . . . . . . . .   4
    2.  Updating Policy and Procedure . . . . . . . . . . . . . . . .   5
      2.1.  Acquisition of Documents  . . . . . . . . . . . . . . . .   6
-     2.2.  Ingest of Documents . . . . . . . . . . . . . . . . . . .   6
+     2.2.  Ingestion of Documents  . . . . . . . . . . . . . . . . .   6
      2.3.  Metadata and document registration  . . . . . . . . . . .   8
      2.4.  Normalization and standardization of canonical file
            structure and format  . . . . . . . . . . . . . . . . . .   9
@@ -298,7 +298,7 @@ Internet-Draft            Digital Preservation              January 2017
 
    o  Acquisition of documents
 
-   o  Ingest of documents
+   o  Ingestion of documents
 
    o  Metadata and document registration
 
@@ -321,9 +321,9 @@ Internet-Draft            Digital Preservation              January 2017
    finalized prior to publication.  The initial I-D as submitted and the
    RFC produced from it do not formally enter the archive, however,
    until the time of publication, which is considered the point of
-   ingest from an archival perspective.
+   ingestion from an archival perspective.
 
-2.2.  Ingest of Documents
+2.2.  Ingestion of Documents
 
    Once an RFC is published, the canonical format is considered
    immutable.  At this point, the RFC Production Center, one of the

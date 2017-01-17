@@ -120,7 +120,7 @@ appropriate stream-approving body are out of scope.</t>
 
 <t><list style='symbols'>
   <t>Acquisition of documents</t>
-  <t>Ingest of documents</t>
+  <t>Ingestion of documents</t>
   <t>Metadata and document registration</t>
   <t>Normalization and standardization of canonical file structure and format</t>
   <t>Transformation/migration to current publication formats</t>
@@ -130,10 +130,10 @@ appropriate stream-approving body are out of scope.</t>
 </list></t>
 
 <section anchor="acquisition-of-documents" title="Acquisition of Documents">
-<t>The acquisition process for documents intended for the archive starts with the submission of an approved I-D for publication.  During the editorial process, information such as the document metadata is finalized prior to publication.  The initial I-D as submitted and the RFC produced from it do not formally enter the archive, however, until the time of publication, which is considered the point of ingest from an archival perspective.</t>
+<t>The acquisition process for documents intended for the archive starts with the submission of an approved I-D for publication.  During the editorial process, information such as the document metadata is finalized prior to publication.  The initial I-D as submitted and the RFC produced from it do not formally enter the archive, however, until the time of publication, which is considered the point of ingestion from an archival perspective.</t>
 
 </section>
-<section anchor="ingest-of-documents" title="Ingest of Documents">
+<section anchor="ingest-of-documents" title="Ingestion of Documents">
 <t>Once an RFC is published, the canonical format is considered immutable.  At this point, the RFC Production Center, one of the internal roles within the RFC Editor, assigns the document metadata an archivist needs to identify the unique object.</t>
 
 <t>In the case of RFCs, the metadata assigned to a document at the time of publication includes:</t>
