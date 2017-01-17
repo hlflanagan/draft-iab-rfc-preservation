@@ -9,7 +9,7 @@
 <!ENTITY I-D.housley-rfc-and-id-signatures SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.housley-rfc-and-id-signatures.xml">
 ]>
 
-<rfc ipr="trust200902" docName="draft-iab-rfc-preservation-02" category="info">
+<rfc ipr="trust200902" docName="draft-iab-rfc-preservation-03" category="info">
 
 <?rfc toc="yes"?>
 
@@ -24,7 +24,7 @@
       </address>
     </author>
 
-    <date year="2016" month="October" day="04"/>
+    <date year="2017" month="January" day="17"/>
 
 
     <abstract>
@@ -39,9 +39,24 @@
 
 <section anchor="introduction" title="Introduction">
 
-<t>The RFC Editor is both the publisher and the archivist for the RFC Series, a series of technical specifications and policy documents that includes foundational Internet standards <xref target="RFC6635"/> <xref target="RFCSERIES"/>.  As the publisher of these documents, the goal is to produce clear, consistent, and readable documents for the community using as many modern features, such as hyperlinks and content markup, within the document as necessary to convey the information the authors intended for their audience.  As the archivist, however, the main goal is to preserve both the information described and the documents themselves for the indefinite future.  To meet both of these goals, the RFC Editor must find the necessary balance between the publication needs of today and the archival needs of tomorrow, while acknowledging a finite set of resources to complete both aspects of the RFC Editor function.  </t>
+<t>The RFC Editor is both the publisher and the archivist for the RFC Series, a
+series of technical specifications and policy documents that includes
+foundational Internet standards <xref target="RFC6635"/> <xref
+target="RFCSERIES"/>.  As the publisher of these documents, the goal is to
+produce clear, consistent, and readable documents for the community using as
+many modern features, such as hyperlinks and content markup, within the document
+as necessary to convey the information the authors intended for their audience.
+As the archivist, however, the main goal is to preserve both the information
+described and the documents themselves for the indefinite future.  To meet both
+of these goals, the RFC Editor must find the necessary balance between the
+publication needs of today and the archival needs of tomorrow, while
+acknowledging a finite set of resources to complete both aspects of the RFC
+Editor function.  </t>
 
-<t>While many files are created during the publication process, this document focuses on the archival needs of RFCs and the Internet-Drafts (I-Ds) that are approved for publication; I-Ds before they are approved for publication by the appropriate stream-approving body are out of scope.</t>
+<t>While many files are created during the publication process, this document
+focuses on the archival needs of RFCs and the Internet-Drafts (I-Ds) that are
+approved for publication; I-Ds before they are approved for publication by the
+appropriate stream-approving body are out of scope.</t>
 
 <t>To summarize, the key areas of tension between the roles of publisher and archivist are:</t>
 
@@ -115,13 +130,13 @@
 </list></t>
 
 <section anchor="acquisition-of-documents" title="Acquisition of Documents">
-<t>The acquisition process for documents intended for the archive starts with the submission of an approved I-D for publication.  During the editorial process, information such as the document metadata are finalized prior to publication.  The initial I-D as submitted and the RFC produced from it do not formally enter the archive, however, until the time of publication, which is considered the point of ingest from an archival perspective.</t>
+<t>The acquisition process for documents intended for the archive starts with the submission of an approved I-D for publication.  During the editorial process, information such as the document metadata is finalized prior to publication.  The initial I-D as submitted and the RFC produced from it do not formally enter the archive, however, until the time of publication, which is considered the point of ingest from an archival perspective.</t>
 
 </section>
 <section anchor="ingest-of-documents" title="Ingest of Documents">
 <t>Once an RFC is published, the canonical format is considered immutable.  At this point, the RFC Production Center, one of the internal roles within the RFC Editor, assigns the document metadata an archivist needs to identify the unique object.</t>
 
-<t>In the case of RFCs, the metadata is assigned to a document at the time of publication includes:</t>
+<t>In the case of RFCs, the metadata assigned to a document at the time of publication includes:</t>
 
 <t><list style='symbols'>
   <t>the RFC number</t>
@@ -139,7 +154,7 @@ document should be digitally signed [I-D.housley-rfc-and-id-signatures].
 Information regarding the signatures and
 how to verify them must be made available on the RFC Editor website.  </t>
 
-<t>In terms of deciding what to accept in the archive--a major question for most archives, and yet simple for the RFC Series--the RFC Editor accepts documents that are approved for publication by the stream approving body of one of the document streams: the IETF, IAB, IRTF, or Independent Submissions streams <xref target="RFC5741"/>.   Each document stream has defined processes on when and how I-Ds are approved and submitted to the RFC Editor for publication.  The RFC Editor does not select documents for publication and archiving; the RFC Editor edits and publishes documents as directed by the document streams. </t>
+<t>In terms of deciding what to accept in the archive--a major question for most archives, and yet simple for the RFC Series--the RFC Editor accepts documents that are approved for publication by the stream approving body of one of the document streams: the IETF, IAB, IRTF, or Independent Submission streams <xref target="RFC5741"/>.   Each document stream has defined processes on when and how I-Ds are approved and submitted to the RFC Editor for publication.  The RFC Editor does not select documents for publication and archiving; the RFC Editor edits and publishes documents as directed by the document streams. </t>
 
 <t>The RFC Editor holds no copyright on I-Ds or RFCs.  As per the IETF Trust Legal Provisions, the copyright for RFCs is held by the authors and the IETF Trust <xref target="TLP"/>.  At any point in time, the current entities providing RFC Editor services must be able to release the archive of RFCs to the IETF Trust. </t>
 
@@ -208,7 +223,7 @@ how to verify them must be made available on the RFC Editor website.  </t>
 </section>
 <section anchor="single-format-for-archival-purposes" title="Single format for archival purposes">
 
-<t>If one ascribes to the idea that preserving the information described by a document, rather than the document itself, is the primary purpose of an archive, then focusing efforts on a single file format is a reasonable option.  Some well-supported archival tooling projects follow this route, such as Archivematica <eref target="https://www.archivematica.org/wiki/Main_Page">https://www.archivematica.org/wiki/Main_Page</eref>.  By selecting a feature-rich yet fundamentally stable file format for documents, an organization may avoid expensive whole-environment reconstruction in order to view the document.  The PDF/A formats were designed to be an archival format for electronic documents, and PDF/A-3 is one of the options intended for publication as the RFC Series moves from a plain-text canonical format to an XML canonical format with multiple publication formats.  A PDF/A-3 file can be produced that embeds the XML from which the PDF/A-3 file was created, which in turn allows for both original and rendered document validation--if one has the correct tools available to see the source of the PDF/A-3 file <xref target="I-D.iab-rfc-use-of-pdf"/>.  The XML is not otherwise visible when viewing the PDF/A-3 file through typical PDF reader software.</t>
+<t>If one ascribes to the idea that preserving the information described by a document, rather than the document itself, is the primary purpose of an archive, then focusing efforts on a single file format is a reasonable option.  Some well-supported archival tooling projects follow this route, such as Archivematica &lt;<eref target="https://www.archivematica.org/wiki/Main_Page">https://www.archivematica.org/wiki/Main_Page</eref>&gt;.  By selecting a feature-rich yet fundamentally stable file format for documents, an organization may avoid expensive whole-environment reconstruction in order to view the document.  The PDF/A formats were designed to be an archival format for electronic documents, and PDF/A-3 is one of the options intended for publication as the RFC Series moves from a plain-text canonical format to an XML canonical format with multiple publication formats.  A PDF/A-3 file can be produced that embeds the XML from which the PDF/A-3 file was created, which in turn allows for both original and rendered document validation--if one has the correct tools available to see the source of the PDF/A-3 file <xref target="I-D.iab-rfc-use-of-pdf"/>.  The XML is not otherwise visible when viewing the PDF/A-3 file through typical PDF reader software.</t>
 
 <t>When looking at the need to archive RFCs in a resource-limited environment, a content preservation-only model has merit, but it is not without risks.  First, PDF/A-3 will not be the canonical format, but is intended to be one of the rendered outputs.  It may contain rendering bugs that were not intended to be in the document.  Second, while the various PDF/A formats were designed to be archival, it has not been put to the test of time to determine if will actual live up to its design goals.</t>
 
@@ -221,7 +236,7 @@ how to verify them must be made available on the RFC Editor website.  </t>
 
 <t>Consider a future where XML has been obsoleted for half a century, HTML5 was a format used three to four human generations ago, and PDF/A-3 no longer supported by any existing company's reading software.   In order for RFCs that were produced with XML as their canonical format, an archive must not only hold the data, it must also hold the entire computing environment that allows the data to be rendered and viewed.  Operating systems and hardware on which those OSs can run, each major version of each piece of software used or relied upon during the publication of an RFC, browsers and readers for HTML, PDF, and any other publication format, must be preserved in some fashion.  This is considered best practice when archiving digital documents.  It is also the most expensive, and the cost only increases over time as more and more instances of the computing environment must be preserved over the lifetime of the Series.</t>
 
-<t>This is a valid option to consider, but sheer scope of resources required suggests that this must be discussed by the community before a decision is made.  Pursuing this may require an entirely different paradigm for the RFC Editor than what has been considered in the past; expanding the scope and resources for the RFC Editor, finding a third-party to take over the responsibilities of archiving, or some other option may be necessary.</t>
+<t>This is a valid option to consider, but the sheer scope of resources required suggests that this must be discussed by the community before a decision is made.  Pursuing this may require an entirely different paradigm for the RFC Editor than what has been considered in the past; expanding the scope and resources for the RFC Editor, finding a third-party to take over the responsibilities of archiving, or some other option may be necessary.</t>
 
 </section>
 </section>
@@ -249,7 +264,7 @@ how to verify them must be made available on the RFC Editor website.  </t>
   <t>The complexity of the material submitted and number of objects acquired generally has more impact on costs than the total storage size. The type and variety of formats accepted into the repository will also affect cost, because for example proprietary formats are likely to be more difficult and expensive to manage in the long term. It may be possible to reduce costs by limiting the formats the repository will accept, or transforming material into a standard common format. This can be done to reduce the number of file types and possibly reducing the storage size. However, it is also necessary to realise that due to storage redundancies required for back up each gigabyte of deposited data requires more than one gigabyte of disk space in repository storage. --http://www.dpconline.org/advice/preservationhandbook/institutional-strategies/costs-and-business-modelling</t>
 </list></t>
 
-<t>Estimating potential costs and providing figures it outside of the scope of this document, but it should be noted that costs are a major factor when determining what level of archival practice an organization will follow.</t>
+<t>Estimating potential costs and providing figures is outside of the scope of this document, but it should be noted that costs are a major factor when determining what level of archival practice an organization will follow.</t>
 
 </section>
 </section>
@@ -284,21 +299,12 @@ how to verify them must be made available on the RFC Editor website.  </t>
 </section>
 <section anchor="iana-considerations" title="IANA Considerations">
 
-<t>None</t>
+<t>This document has no IANA actions.</t>
 
 </section>
 <section anchor="security-considerations" title="Security Considerations">
 
-<t>TBD</t>
-
-</section>
-
-<section anchor="change-log" title="Draft Change Log">
-<t>To be removed before publication</t>
-<section anchor="change-stream" title="draft-flanagan-rfc-preservation-02 to draft-iab-rfc-preservation-00">
-<t>Life cycle: updated how paper is currently handled</t>
-<t> Recommendations: clarified the PDF reader requirements, license requirements.</t>
-</section>
+<t>This document assumes that the origination of RFCs via the RFC Editor is secure and trusted. With that assumption, the activities discussed in this document do not affect the security of the Internet.</t>
 
 </section>
 
