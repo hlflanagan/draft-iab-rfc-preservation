@@ -6,7 +6,6 @@
 <!ENTITY RFC6635 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6635.xml">
 <!ENTITY RFC6949 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6949.xml">
 <!ENTITY I-D.iab-rfc-use-of-pdf SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-rfc-use-of-pdf.xml">
-<!ENTITY I-D.housley-rfc-and-id-signatures SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.housley-rfc-and-id-signatures.xml">
 ]>
 
 <rfc ipr="trust200902" docName="draft-iab-rfc-preservation-03" category="info">
@@ -89,14 +88,14 @@ appropriate stream-approving body are out of scope.</t>
 <t>The archival process for the RFC Series is as follows:</t>
 
 <t><list style='numbers'>
-  <t>Acquisition:  The RFC Editor database is updated to indicate an Internet Draft (I-D) has been approved for publication.  At this point, the document is taken through the editorial process on the way to publication <xref target="RFC-PUB"/>.</t>
+  <t>Acquisition:  The RFC Editor database is updated to indicate an Internet-Draft (I-D) has been approved for publication.  At this point, the document is taken through the editorial process on the way to publication <xref target="RFC-PUB"/>.</t>
   <t>Ingest: The RFC is added to the archive at the time of publication.</t>
   <t>Metadata creation: The details regarding an RFC, including RFC number, author, title, abstract, etc., are created at time of publication.  Additional metadata in the form of status and errata can be added or changed at any time, following the process of the originating document stream.</t>
   <t>Bit stream preservation: This part of the process is handled as part of the IT system administration; all servers, disks, and backup technology are refreshed on a regular cycle.</t>
   <t>Content preservation:  All RFCs since January 2010 are printed out on standard office paper at time of publication, and the electronic files preserved on disk and in backups with no particular focus on preserving the entire computing environment used to create the electronic documents.  Most RFCs prior to January 2010 are also available on paper, but there are gaps in the record and issues of ownership around the paper copies before that date.</t>
 </list></t>
 
-<t>When the format for RFCs transitions from plain-text, ASCII-encoded files to an XML format with multiple outputs, the archival process overall will become more complex.  Additional metadata and some or possibly all of the  computing environment may need to be added to the archive.</t>
+<t>When the format for RFCs transitions from plain-text, ASCII-only files to an XML format with multiple outputs, the archival process overall will become more complex.  Additional metadata and some or possibly all of the  computing environment may need to be added to the archive.</t>
 
 </section>
 </section>
@@ -146,13 +145,6 @@ appropriate stream-approving body are out of scope.</t>
 </list></t>
 
 <t>Additional metadata, such as author name, is assigned earlier in the document creation process, but it is subject to change up to the point of publication.  More information on metadata is available in section "Metadata and document registration."</t>
-
-<t>The publication of an RFC--the point at which responsibility for the document
-moves to the RFC Publisher, another internal role within the RFC Editor--starts
-the formal archival process for the documents.  At that time, the canonical
-document should be digitally signed [I-D.housley-rfc-and-id-signatures].
-Information regarding the signatures and
-how to verify them must be made available on the RFC Editor website.  </t>
 
 <t>In terms of deciding what to accept in the archive--a major question for most archives, and yet simple for the RFC Series--the RFC Editor accepts documents that are approved for publication by the stream approving body of one of the document streams: the IETF, IAB, IRTF, or Independent Submission streams <xref target="RFC5741"/>.   Each document stream has defined processes on when and how I-Ds are approved and submitted to the RFC Editor for publication.  The RFC Editor does not select documents for publication and archiving; the RFC Editor edits and publishes documents as directed by the document streams. </t>
 
@@ -277,7 +269,6 @@ how to verify them must be made available on the RFC Editor website.  </t>
 <t><list style='symbols'>
   <t>choosing a format designed for archiving RFCs (PDF/A-3)</t>
   <t>embedding the canonical XML format within the PDF/A-3 file for RFCs</t>
-  <t>adding a digital signature and checksum for the canonical XML and the PDF/A-3 files</t>
   <t>retaining a copy of the plain-text or XML file submitted for approved I-Ds</t>
   <t>retaining all major versions of the tools and their associated documentation used to acquire and ingest an RFC</t>
 <t>retaining the final XML file as well as the PDF/A-3 file with the embedded XML</t>
@@ -316,7 +307,6 @@ how to verify them must be made available on the RFC Editor website.  </t>
     <references title='Informative References'>
 
 &I-D.iab-rfc-use-of-pdf;
-&I-D.housley-rfc-and-id-signatures;
 <reference anchor="DPC" target="http://www.dpconline.org/advice/preservationhandbook">
   <front>
     <title>Digital Preservation Handbook</title>
