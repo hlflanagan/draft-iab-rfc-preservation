@@ -4,12 +4,12 @@
 
 Network Working Group                                        H. Flanagan
 Internet-Draft                                                RFC Editor
-Intended status: Informational                          January 17, 2017
-Expires: July 21, 2017
+Intended status: Informational                         February 28, 2017
+Expires: September 1, 2017
 
 
          Digital Preservation Considerations for the RFC Series
-                     draft-iab-rfc-preservation-03
+                     draft-iab-rfc-preservation-04
 
 Abstract
 
@@ -36,7 +36,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on July 21, 2017.
+   This Internet-Draft will expire on September 1, 2017.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 1]
+Flanagan                Expires September 1, 2017               [Page 1]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    the Trust Legal Provisions and are provided without warranty as
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 2]
+Flanagan                Expires September 1, 2017               [Page 2]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    approved for publication by the appropriate stream-approving body are
@@ -165,9 +165,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 3]
+Flanagan                Expires September 1, 2017               [Page 3]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
 1.1.  Terminology
@@ -221,9 +221,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 4]
+Flanagan                Expires September 1, 2017               [Page 4]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    3.  Metadata creation: The details regarding an RFC, including RFC
@@ -277,9 +277,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 5]
+Flanagan                Expires September 1, 2017               [Page 5]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    The RFC Editor has several advantages in acting as the digital
@@ -333,9 +333,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 6]
+Flanagan                Expires September 1, 2017               [Page 6]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    In the case of RFCs, the metadata assigned to a document at the time
@@ -389,9 +389,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 7]
+Flanagan                Expires September 1, 2017               [Page 7]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    The RFC Editor maintains this registry in the form of a database that
@@ -445,9 +445,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 8]
+Flanagan                Expires September 1, 2017               [Page 8]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    of online documents, with a goal of buffering against URI and online
@@ -501,9 +501,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                 [Page 9]
+Flanagan                Expires September 1, 2017               [Page 9]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    o  a content preservation model that focuses on one publication
@@ -557,9 +557,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                [Page 10]
+Flanagan                Expires September 1, 2017              [Page 10]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
 2.4.2.  Single format for archival purposes
@@ -613,9 +613,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                [Page 11]
+Flanagan                Expires September 1, 2017              [Page 11]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    Consider a future where XML has been obsoleted for half a century,
@@ -669,9 +669,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                [Page 12]
+Flanagan                Expires September 1, 2017              [Page 12]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    community, and whether any should be retired or added to improve the
@@ -725,9 +725,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                [Page 13]
+Flanagan                Expires September 1, 2017              [Page 13]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
 3.  Recommendations
@@ -781,9 +781,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                [Page 14]
+Flanagan                Expires September 1, 2017              [Page 14]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    RFC Editor.  The possibilities and options should be discussed with
@@ -837,9 +837,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                [Page 15]
+Flanagan                Expires September 1, 2017              [Page 15]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    [I-D.iab-rfc-use-of-pdf]
@@ -893,9 +893,9 @@ Internet-Draft            Digital Preservation              January 2017
 
 
 
-Flanagan                  Expires July 21, 2017                [Page 16]
+Flanagan                Expires September 1, 2017              [Page 16]
 
-Internet-Draft            Digital Preservation              January 2017
+Internet-Draft            Digital Preservation             February 2017
 
 
    [TLP]      IETF Trust, "IETF Trust Legal Provisions", n.d.,
@@ -949,4 +949,4 @@ Author's Address
 
 
 
-Flanagan                  Expires July 21, 2017                [Page 17]
+Flanagan                Expires September 1, 2017              [Page 17]

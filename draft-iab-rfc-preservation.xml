@@ -8,7 +8,7 @@
 <!ENTITY I-D.iab-rfc-use-of-pdf SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-rfc-use-of-pdf.xml">
 ]>
 
-<rfc ipr="trust200902" docName="draft-iab-rfc-preservation-03" category="info">
+<rfc ipr="trust200902" docName="draft-iab-rfc-preservation-04" category="info">
 
 <?rfc toc="yes"?>
 
@@ -23,7 +23,7 @@
       </address>
     </author>
 
-    <date year="2017" month="January" day="17"/>
+    <date year="2017" month="February" day="28"/>
 
 
     <abstract>
